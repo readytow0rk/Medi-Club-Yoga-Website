@@ -30,6 +30,10 @@ body {
 	line-height: 1.5;
   }
 
+  img {
+	max-width: 100%;
+	height: auto;
+  }
   footer {
 	background-color: #EEEEEE;
 	padding: 10px;
