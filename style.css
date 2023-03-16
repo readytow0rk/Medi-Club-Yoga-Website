@@ -91,3 +91,34 @@ nav {
 	}
   }
   
+  footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .social-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .social-links li {
+	display: inline-block;
+	margin: 0 10px;
+  }
+  
+  .social-links a {
+	color: #666;
+	font-size: 20px;
+  }
+  
+  .social-links a:hover {
+	color: #000;
+  }
+  
+  .fab {
+	font-size: 24px;
+	vertical-align: middle;
+  }
+  
