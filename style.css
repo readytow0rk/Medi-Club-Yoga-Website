@@ -193,3 +193,56 @@ nav {
 	text-align: center;
 }
 
+h1 {
+	text-align: center;
+	margin-top: 50px;
+  }
+  table {
+	margin: 50px auto;
+	border-collapse: collapse;
+	width: 80%;
+  }
+  th, td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+  }
+  th {
+	background-color: lightgray;
+  }
+ 
+  #photo {
+	clear: both;
+	line-height: 0;
+	column-count: 2;
+	column-gap: 0px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+	@media screen and (max-width: 950px){
+		#photo{
+		  column-count: 3;}}
+	  @media screen and (max-width: 800px){
+		#photo{
+		  column-count: 2;}}
+	  @media (max-width: 576px) {
+		  .find-us div {
+		  width: 100%;
+			  }}
+#maps{
+	border-radius: 10px;
+}	  
+
+.container {
+	display: flex;
+  }
+  
+  .left-div {
+	flex: 1;
+  }
+  
+  .right-div {
+	flex: 1;
+  }
+
