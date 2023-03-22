@@ -332,7 +332,11 @@ th {
 		transition: all 0.2s ease-in-out;
 		text-align: center;
 	}
-
+	.social-links {
+		list-style: none;
+		margin: 0px;
+		padding: 20px;
+	}
 	#aa {
 		height: 300px;
 		width: 300px;
@@ -386,4 +390,5 @@ th {
 		margin-right: 30%;
 		
 	}
+	
 }
