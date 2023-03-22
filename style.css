@@ -228,48 +228,162 @@ th {
 }
 
 #a {
-    color: #fcfdfd;
-    text-decoration: none;
+	color: #fcfdfd;
+	text-decoration: none;
 }
 
 #b {
-    color: #000000;
-    text-decoration: none;
+	color: #000000;
+	text-decoration: none;
 }
 
+#contentContact {
+	max-width: 800px;
+	margin: 84px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+}
 
 @media only screen and (max-width: 800px) {
 	.box {
-	  display: grid;
+		display: grid;
 	}
-	#aa{
+
+	#aa {
 		margin-left: 8%;
 	}
-	header{
+
+	header {
 		width: 80%;
 	}
+
 	form {
 		width: 50%;
-  height: 50%;
+		height: 50%;
 	}
-	
-	content{
+
+	#content {
 		max-width: 600px;
 	}
-  } 
 
-
-
-
-
-  @media only screen and (max-width: 800px) {
-	.box {
-	  display: grid;
+	#contentContact {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 0px;
+		background-color: #fff;
+		box-shadow: 0 0 5px #ccc;
 	}
-	#aa{
-		margin-left: 8%;
+
+	li {
+		margin: 0px 0px;
 	}
-	header{
-		width: 80%;
+}
+
+@media only screen and (max-width: 650px) {
+	#header {
+		background-color: #333;
+		color: #fff;
+		padding: 0px;
+		text-align: center;
+		font-size: 25px;
 	}
-  } 
+
+	#contentContact {
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 0px;
+		background-color: #fff;
+		box-shadow: 0 0 5px #ccc;
+	}
+	#content {
+		max-width: 600px;
+	}
+	#contentContact{
+	max-width: 300px;
+}
+}
+
+@media only screen and (max-width: 520px) {
+	#header {
+		background-color: #333;
+		color: #fff;
+		padding: 0px;
+		text-align: center;
+		font-size: 15px;
+	}
+	footer {
+		background-color: #f2f2f2;
+		padding: 0px;
+		text-align: center;
+	}
+	#ul{
+		display: grid;
+	}
+	#content {
+		max-width: 400px;
+	}
+	#pp {
+		margin-bottom: 20px;
+		border: 1px solid #CCCCCC;
+		border-radius: 5px;
+		padding: 0px;
+		position: relative;
+		transition: all 0.2s ease-in-out;
+		text-align: center;
+	}
+
+	#aa {
+		height: 300px;
+		width: 300px;
+		margin-left: 14%;
+	}
+
+	dl,
+	ol,
+	ul {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		padding-left: 0rem;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#ul{
+		display: grid;
+	}
+
+#aa {
+	margin-left: 4%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+	#ul{
+		display: grid;
+	}
+
+#aa {
+	margin-left: 4%;
+	width: 250px;
+	height: 250px;
+}
+#content {
+	max-width: 300px;
+}
+#contentContact{
+	max-width: 300px;
+}
+}
+
+@media only screen and (max-width: 350px) {
+	#a {
+		color: #fcfdfd;
+		text-decoration: none;
+		padding-left: 10%;
+	}
+	ul{
+		margin-right: 30%;
+		
+	}
+}
