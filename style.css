@@ -72,27 +72,6 @@ nav {
 	border-radius: 10px;
   }
   
-  @media only screen and (max-width: 600px) {
-	/* For mobile devices */
-	nav {
-	  height: auto;
-	}
-	
-	ul {
-	  flex-direction: column;
-	  align-items: flex-start;
-	}
-	
-	li {
-	  margin: 10px 0;
-	}
-	
-	a {
-	  display: block;
-	  padding: 10px 0;
-	}
-  }
-  
   footer {
 	background-color: #f2f2f2;
 	padding: 20px;
@@ -246,3 +225,37 @@ h1 {
 	flex: 1;
   }
 
+  @media only screen and (max-width: 700px) {
+	@content {
+	  width: 49%;
+	}
+	header {
+	  width: 49%;
+	}
+	footer {
+	  width: 49%;
+	}
+} 
+	
+  @media only screen and (max-width: 400px) {
+	@content {
+	  width: 99%;
+	}
+	header {
+		width: 49%;
+	  }
+	footer {
+		width: 49%;
+	  }
+	} 
+  @media screen and (max-width: 950px){
+	#photo{
+	  column-count: 3;}}
+  @media screen and (max-width: 800px){
+	
+	}
+  @media (max-width: 576px) {
+
+	  }
+  
+  /* 1600x992px */
