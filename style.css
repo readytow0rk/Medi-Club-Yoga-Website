@@ -243,14 +243,6 @@ th {
 	padding: 20px;
 	background-color: #fff;
 	box-shadow: 0 0 5px #ccc;
-
-
-
-	/* max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: #fff;
-	box-shadow: 0 0 5px #ccc; */
 }
 
 @media only screen and (max-width: 800px) {
@@ -418,8 +410,8 @@ th {
 	}
 }
 
-@media only screen and (max-width: 375px),
-(max-height: 665px) {
+@media only screen and (max-width: 374px),
+(max-height: 666px) {
 	#contentContact {
 		max-width: 600px;
 		margin: 114px auto;
@@ -479,6 +471,17 @@ th {
 	#contentContact {
 		max-width: 600px;
 		margin: 269px auto;
+		padding: 0px;
+		background-color: #fff;
+		box-shadow: 0 0 5px #ccc;
+	}
+}
+
+@media only screen and (max-width: 375px),
+(max-height: 812px) {
+	#contentContact {
+		max-width: 600px;
+		margin: 185px auto;
 		padding: 0px;
 		background-color: #fff;
 		box-shadow: 0 0 5px #ccc;
