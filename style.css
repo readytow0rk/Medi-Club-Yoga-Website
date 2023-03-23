@@ -240,10 +240,11 @@ th {
 
 #contentContact {
 	max-width: 800px;
-	margin: 84px auto;
+	margin: 0 auto;
 	padding: 20px;
 	background-color: #fff;
 	box-shadow: 0 0 5px #ccc;
+	
 }
 
 @media only screen and (max-width: 800px) {
