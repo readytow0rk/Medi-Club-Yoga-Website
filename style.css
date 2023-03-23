@@ -47,6 +47,7 @@ footer {
 	padding: 10px;
 	text-align: center;
 	font-size: 12px;
+	bottom: 0;
 }
 
 nav {
@@ -486,4 +487,24 @@ th {
 		background-color: #fff;
 		box-shadow: 0 0 5px #ccc;
 	}
+}
+
+@media only screen and (max-width: 375px), (max-height: 812px){
+#contentContact {
+    max-width: 600px;
+    margin: 92px auto;
+    padding: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+}
+
+@media only screen and (max-width: 819px), (max-height: 1179px){
+#contentContact {
+    max-width: 800px;
+    margin: 296px auto;
+    padding: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
 }
